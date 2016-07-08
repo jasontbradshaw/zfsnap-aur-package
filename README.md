@@ -1,5 +1,5 @@
 # zfsnap-aur-package
-An Arch Linux User Repository package for zfsnap
+The Arch Linux User Repository package for [`zfsnap`](https://github.com/zfsnap/zfsnap).
 
 # Building
 To build and test `PKGBUILD` and generate `.SRCINFO`, run:
