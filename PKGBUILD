@@ -42,7 +42,7 @@ package() {
   mkdir -p "${pkgdir}/usr/share/bash-completion/completions"
   install --mode='644' \
     'completion/zfsnap-completion.bash' \
-    "${pkgdir}/usr/share/bash-completion/completions/${pkgname}-completion.bash"
+    "${pkgdir}/usr/share/bash-completion/completions/${pkgname}"
 
   # `zsh` completions.
   mkdir -p "${pkgdir}/usr/share/zsh/site-functions"
